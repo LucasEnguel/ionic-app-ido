@@ -1,17 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      <h1>I DO!</h1>
     </ion-title>
   </ion-toolbar>
+<p>Tutoriais em video</p>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
+  <h1>Bem-vindo ao nosso app! Aqui você encontra tutoriais práticos e detalhados para montar seu próprio computador, trocar peças de notebooks e muito mais. Aprenda no seu ritmo e transforme seu setup com facilidade.</h1>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-card class="butaos">
+  <ion-button class="custom-button" routerLink="/tabs/tab2">Tutoriais de Hardware</ion-button>
+
+  <ion-button class="custom-button" routerLink="/tabs/tab3">Tutoriais de Software</ion-button>
+</ion-card>
 </ion-content>
